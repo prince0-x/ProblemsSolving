@@ -5,22 +5,24 @@ public:
          return c=='A' or c=='E' or c=='I' or c=='O' or c=='U' or c=='a' or c=='e' or c=='i' or c=='o' or c=='u';
     }
     string reverseVowels(string s) {
-        vector<char> vow;
-        string ans="";
-        for(auto i:s){
-            if(isVovel(i)){
-                vow.push_back(i);
-            }
+       int i=0,j=s.size()-1;
+        string ans=s;
+       while(i<=j)
+       {
+        if(isVovel(ans[i]) and isVovel(ans[j]))
+        {
+            swap(ans[i],ans[j]);
+            i++;
+            j--;
         }
-
-        reverse(vow.begin(),vow.end());
-        int j=0;
-        for(auto i:s){
-            if(isVovel(i)){
-            ans+=vow[j];
-            j++;
+        else if(isVovel(ans[i]) and !isVovel(ans[j]))
+        {
+            j--;
         }
-        else{ans+=i;}}
+        else{
+            i++;
+        }
+       }
         return ans;
     }
 };
