@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
+
        int xorA = nums[0];
        for(int i=1 ; i<nums.size();i++)
        {
@@ -10,9 +11,17 @@ public:
        xorA^=k;
        while(xorA>0)
        {
-        if(xorA&1!=0)cnt++;
+        if((xorA&1)!=0)cnt++;
        xorA= xorA>>1;
        }
       return cnt;  
     }
 };
+
+const static int __ = []()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+   return 0;
+}();  
