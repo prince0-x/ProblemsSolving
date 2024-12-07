@@ -1,42 +1,39 @@
 class Solution {
-public:
-    string s,p;
-    vector<vector<int>>memo;
-    bool dp(int i,int j)
-    {  
-        // base case
-        if(i==s.size() && j==p.size())return 1;
-
-        if (j==p.size())return 0;
-        // memo 
-        if(memo[i][j]!=-1)return memo[i][j];
-        bool ans=false;
-        // if match
-        if(i<s.size() and s[i]==p[j])
+    public:
+    bool isMatch(string s, string p) {
+       int  n = s.size(), m = p.size();
+       vector<bool>dp(m+1,false);
+       bool prev = false;
+       dp[0]=true;
+       for(int j = 1; j<= m; j++)
+       {
+        if(p[j-1]=='*')
         {
-            ans|=dp(i+1,j+1);
+            dp[j]= dp[j-1];
         }
-        // if ? occur
-        else if(p[j]=='?')
+       }
+       for(int i = 1; i<= n;i++)
+       {
+        prev = dp[0];
+        dp[0]=false;
+        for( int j = 1; j<= m; j++)
         {
-            if(i==s.size())return false;
-            else ans|=dp(i+1,j+1);
-        }
-        // if * occur
-        else if(p[j]=='*')
-        {
-            if(i<s.size())
+            bool temp = dp[j];
+            if(p[j-1]==s[i-1] or p[j-1]=='?')
             {
-                ans|=dp(i+1,j);
+                dp[j]=prev;
             }
-             ans|=dp(i,j+1);
+            else if (p[j-1]=='*')
+            {
+                dp[j]= dp[j] || dp[j-1];
+            }
+            else{
+                dp[j]=false;
+            }
+            prev = temp;
+
         }
-        return memo[i][j]= ans;
-    }
-    bool isMatch(string ss, string pp) {
-        this->s=ss;
-        this->p=pp;
-        memo.resize(ss.size()+1,vector<int>(pp.size()+1,-1));
-        return dp(0,0);
+       }
+       return dp[m];
     }
 };
