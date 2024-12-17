@@ -2,19 +2,21 @@ class Solution {
 public:
     int minimumSumSubarray(vector<int>& nums, int l, int r) {
        bool ans = false;
-       int n = nums.size();
        int val = INT_MAX;
-       for(int i =0 ; i< n; ++i)
+       int n = nums.size();
+       vector<int>pref(n+1,0);
+       for(int i =0; i<n;i++){
+        pref[i+1] = pref[i]+nums[i];
+       }
+       for(int i=l ;i<=r;i++)
        {
-        int sum =0;
-        for(int j=i;j<n;++j)
+        for( int j =0;j+i<=n;j++)
         {
-            sum+=nums[j];
-            int len = j-i+1;
-            if(len >=l and len <=r and sum>0)
+            int sum = pref[i+j]-pref[j];
+            if(sum>0)
             {
-                val = min(val, sum);
-                ans = true;
+                val=min(val,sum);
+                ans=true;
             }
         }
        }
