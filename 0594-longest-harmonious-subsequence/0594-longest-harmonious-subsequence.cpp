@@ -11,9 +11,9 @@ public:
             }
             while(nums[j]-nums[i]>1)
             {
-            	i++;
+            	++i;
             }
-            	j++;
+            	++j;
         }
         // cout<<ans<<endl;
         return ans;
