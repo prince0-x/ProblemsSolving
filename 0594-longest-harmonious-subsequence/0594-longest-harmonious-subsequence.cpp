@@ -8,19 +8,12 @@ public:
             if(nums[j]-nums[i]==1)
             {
             	ans = max(ans, j-i+1);
-            	j++;
             }
-            else if(nums[j]-nums[i]>1)
+            while(nums[j]-nums[i]>1)
             {
             	i++;
-            	if(i==j){
-            		j++;
-            	}
             }
-            else
-            {
             	j++;
-            }
         }
         // cout<<ans<<endl;
         return ans;
