@@ -1,51 +1,49 @@
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
-        int numRows = grid.size(), numCols = grid[0].size();
-        vector<vector<int>> minChanges(numRows, vector<int>(numCols, INT_MAX));
-        minChanges[0][0] = 0;
+        int n=grid.size();
+        int m=grid[0].size();
 
-        while (true) {
-            vector<vector<int>> prevState = minChanges;
-            for (int row = 0; row < numRows; row++) {
-                for (int col = 0; col < numCols; col++) {
-                    if (row > 0) {
-                        minChanges[row][col] =
-                            min(minChanges[row][col],
-                                minChanges[row - 1][col] +
-                                    (grid[row - 1][col] == 3 ? 0 : 1));
-                    }
-                    if (col > 0) {
-                        minChanges[row][col] =
-                            min(minChanges[row][col],
-                                minChanges[row][col - 1] +
-                                    (grid[row][col - 1] == 1 ? 0 : 1));
-                    }
-                }
-            }
-            for (int row = numRows - 1; row >= 0; row--) {
-                for (int col = numCols - 1; col >= 0; col--) {
+        int dx[4]={0,0,1,-1};
+        int dy[4]={1,-1,0,0};
 
-                    if (row < numRows - 1) {
-                        minChanges[row][col] =
-                            min(minChanges[row][col],
-                                minChanges[row + 1][col] +
-                                    (grid[row + 1][col] == 4 ? 0 : 1));
-                    }
+        int dist[n][m];
 
-                    if (col < numCols - 1) {
-                        minChanges[row][col] =
-                            min(minChanges[row][col],
-                                minChanges[row][col + 1] +
-                                    (grid[row][col + 1] == 2 ? 0 : 1));
-                    }
-                }
-            }
-            if (prevState == minChanges) {
-                break;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                dist[i][j]=INT_MAX;
             }
         }
+        deque<pair<int,int>>dq;
+        dq.push_back({0,0});
+        dist[0][0]=0;
 
-        return minChanges[numRows - 1][numCols - 1];
+        while(dq.size()>0){
+            auto curr=dq.front();
+            dq.pop_front();
+            int x=curr.first;
+            int y=curr.second;
+            int dir=grid[x][y];
+
+            for(int i=0;i<4;i++){
+                int nx=x+dx[i];
+                int ny=y+dy[i];
+
+                int edgewt=1;
+                if(i+1==dir) edgewt=0;
+
+                if(nx<n and ny<m and nx>=0 and ny>=0){
+                    if(dist[nx][ny]>dist[x][y]+edgewt){
+                        dist[nx][ny]=dist[x][y]+edgewt;
+                        if(edgewt==1){
+                            dq.push_back({nx,ny});
+                        }else{
+                            dq.push_front({nx,ny});
+                        }
+                    }
+                }
+            }
+        }
+        return dist[n-1][m-1];
     }
 };
