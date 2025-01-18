@@ -4,9 +4,9 @@ public:
         int ans = 0;
         for(auto x:derived)
         {
-            ans^=x;
+            ans+=x;
         }
-        return ans==0;
+        return ans%2==0;
         
     }
 };
