@@ -31,10 +31,33 @@ public:
 //         }
 //         return dp[index][buy][limit]=profit;
 //     }
-    int solveT(vector<int>&prices)
+    // int solveT(vector<int>&prices)
+    // {
+    //     int n= prices.size();
+    //     vector<vector<vector<int>>>dp(n+1, vector<vector<int>>(2, vector<int>(3,0)));
+    //     for(int ind = n-1; ind >= 0; ind--)
+    //     {
+    //         for(int buy =0; buy<= 1; buy++)
+    //         {
+    //             for( int limit =1; limit <=2; limit++)
+    //             {
+    //                 if(buy)
+    //                 {
+    //                     dp[ind][buy][limit]=max(-prices[ind]+dp[ind+1][0][limit], 0 + dp[ind + 1][1][limit]);
+    //                 }
+    //                 else{
+    //                     dp[ind][buy][limit]= max(+prices[ind]+dp[ind+1][1][limit-1], 0 + dp[ind+1][0][limit]);           }
+    //             }
+    //         }
+    //     }
+    //     return dp[0][1][2];
+    // }
+     int solveT_opt(vector<int>&prices)
     {
         int n= prices.size();
-        vector<vector<vector<int>>>dp(n+1, vector<vector<int>>(2, vector<int>(3,0)));
+        vector<vector<int>>curr(2, vector<int>(3,0));
+        vector<vector<int>>next(2, vector<int>(3,0));
+       
         for(int ind = n-1; ind >= 0; ind--)
         {
             for(int buy =0; buy<= 1; buy++)
@@ -43,17 +66,18 @@ public:
                 {
                     if(buy)
                     {
-                        dp[ind][buy][limit]=max(-prices[ind]+dp[ind+1][0][limit], 0 + dp[ind + 1][1][limit]);
+                        curr[buy][limit]=max(-prices[ind]+next[0][limit], 0 + next[1][limit]);
                     }
                     else{
-                        dp[ind][buy][limit]= max(+prices[ind]+dp[ind+1][1][limit-1], 0 + dp[ind+1][0][limit]);           }
+                        curr[buy][limit]= max(+prices[ind]+next[1][limit-1], 0 + next[0][limit]);           }
                 }
             }
+            next = curr;
         }
-        return dp[0][1][2];
+        return next[1][2];
     }
     int maxProfit(vector<int>& prices) {
         
-      return solveT(prices);   
+      return solveT_opt(prices);   
     }
 };
