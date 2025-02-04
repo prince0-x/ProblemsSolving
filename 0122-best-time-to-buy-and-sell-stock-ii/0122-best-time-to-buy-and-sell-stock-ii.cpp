@@ -1,35 +1,37 @@
 class Solution {
 public:
-    int solve(int index, int buy, vector<int>&prices)
+    // int solve(int index, int buy, vector<int>&prices)
+    // {
+    //     if(index==prices.size())return 0;
+    //     int profit=0;
+    //     if(buy)
+    //     {
+    //         profit=max(-prices[index]+solve(index+1, 0, prices), 0 + solve(index+1, 1, prices));
+    //     }
+    //     else{
+    //         profit= max(+prices[index]+solve(index+1, 1, prices), 0 + solve(index+1, 0, prices));
+    //     }
+    //     return profit;
+    // }
+
+      int solve1(int index, int buy, vector<int>&prices,vector<vector<int>>&dp)
     {
         if(index==prices.size())return 0;
+        if(dp[index][buy]!=-1)return dp[index][buy];
         int profit=0;
         if(buy)
         {
-            profit=max(-prices[index]+solve(index+1, 0, prices), 0 + solve(index+1, 1, prices));
+            profit=max(-prices[index]+solve1(index+1, 0, prices,dp), 0 + solve1(index+1, 1, prices,dp));
         }
         else{
-            profit= max(+prices[index]+solve(index+1, 1, prices), 0 + solve(index+1, 0, prices));
+            profit= max(+prices[index]+solve1(index+1, 1, prices,dp), 0 + solve1(index+1, 0, prices,dp));
         }
-        return profit;
+        return dp[index][buy]=profit;
     }
     int maxProfit(vector<int>& prices) {
-    int i=0,j=0,sum=0;
-    int Min=INT_MAX;
-    while(i<prices.size())
-    {
-       if(Min<prices[i])
-       {
-        sum+=(prices[i]-Min);
-        Min=prices[i];
-       }
-        else
-        {
-            Min=prices[i];
-        }
-       i++;
-    }
-    return sum;
+        int n =prices.size();
+        vector<vector<int>>dp(n, vector<int>(2,-1));
+        return solve1(0, 1, prices,dp);
     }
 };
 
