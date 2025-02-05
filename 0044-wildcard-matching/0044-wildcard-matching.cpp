@@ -1,43 +1,46 @@
 class Solution {
     public:
+    bool m(string s, string p)
+    {
+       int  m1 = s.size();
+       int  n = p.size();
+       vector<vector<int>>dp(n+1,vector<int>(m1+1,0));
+       dp[0][0]=1;
+       for(int i=1; i<=n;i++)
+       {
+        int f =1;
+            for(int k=0; k<=i-1;k++)
+            {
+                if(p[k]!='*')
+                {
+                    f=0;
+                    break;
+                }
+            }
+        dp[i][0]=f;
+        }
+        for(int i=1;i<=n;i++)
+        {
+            for(int j =1; j<=m1;j++)
+            {
+                if(p[i-1]==s[j-1] or p[i-1]=='?')
+                {
+                    dp[i][j]=dp[i-1][j-1];
+                }
+                else if(p[i-1]=='*')
+                {
+                    dp[i][j]=dp[i-1][j] | dp[i][j-1];
+                }
+                else
+                {
+                    dp[i][j]=0;
+                }
+            }
+        }
+        return dp[n][m1];
+       
+    }
     bool isMatch(string s, string p) {
-       int  n = s.size(), m = p.size();
-       vector<bool>dp(m+1,false);
-       bool prev = false;
-       dp[0]=true;
-       for(int j = 1; j<= m; j++)
-       {
-        if(p[j-1]=='*')
-        {
-            dp[j]= dp[j-1];
-        }
-       }
-       for(int i = 1; i<= n;i++)
-       {
-        prev = dp[0];
-        dp[0]=false;
-        for( int j = 1; j<= m; j++)
-        {
-            bool temp = dp[j];
-            if(p[j-1]==s[i-1] or p[j-1]=='?')
-            {
-                dp[j]=prev;
-            }
-            else if (p[j-1]=='*')
-            {
-                dp[j]= dp[j] || dp[j-1];
-            }
-            else{
-                dp[j]=false;
-            }
-            prev = temp;
-
-        }
-       }
-       return dp[m];
+      return m(s, p);
     }
 };
-static const int __ =[](){
-    ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-    return 0;
-}();
