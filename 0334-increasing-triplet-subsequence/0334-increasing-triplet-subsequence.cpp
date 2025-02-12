@@ -8,14 +8,17 @@ public:
         for(int i=1;i<n;i++)
         {
             mini[i]=min(mini[i-1], nums[i]);
+            // cout<<mini[i]<<" ";
         }
+        // cout<<"\n";
         for(int i=n-2;i>=0;i--)
         {
             maxi[i]=max(maxi[i+1], nums[i]);
+            // cout<<maxi[i]<<" ";
         }
         for(int i=0;i<n;i++)
         {
-            if((i-1)>0  && (i+1)<n &&nums[i]>mini[i-1] and nums[i]<maxi[i+1])return true;
+            if(nums[i]>mini[i] and nums[i]<maxi[i]) return true;
         }
         return false;
     }
