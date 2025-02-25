@@ -2,12 +2,14 @@ class Solution {
 public:
 // kadanes algo
     int maxSubArray(vector<int>& nums) {
-        int sum=0, maxans =INT_MIN;
-        for(auto i: nums)
-        {
-            sum=max(sum+i, i);
-            maxans = max(maxans, sum);
+        int curSum =0 , max_sum = INT_MIN;
+        for (int val : nums){
+            curSum += val;
+            max_sum = max(curSum,max_sum);
+            if(curSum<0){
+                curSum = 0;
+            }
         }
-        return maxans;
+        return max_sum;
     }
 };
