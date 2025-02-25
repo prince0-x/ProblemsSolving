@@ -1,39 +1,27 @@
 class Solution {
 public:
-    bool isValid(string s) {
-        stack<char> st;
-        for(int i=0;i<s.length();i++)
+bool isMatching(char a, char b)
+    {
+        return (a=='(' && b==')' )|| (a=='{' && b =='}') || (a=='[' && b==']');
+    }
+    bool isValid(string t) {
+        stack<char>s;
+        for(auto i:t)
         {
-            char c = s[i];
-            if(isOpening(c))
+            if(i == '(')
             {
-                st.push(c);
+                s.push(i);
             }
-            else
-            {
-                if(st.empty())
+            else{
+                if(!s.empty() and isMatching(s.top(),i) )
                 {
-                    return false;
+                    s.pop();
                 }
-                else if(!isMatching(st.top(),c))
-                {
-                    return false;
-                }
-                else
-                {
-                    st.pop();
+                else{
+                    s.push(i);
                 }
             }
         }
-        return st.empty();
-    }
-
-    bool isOpening(char c)
-    {
-        return c=='(' || c=='{' || c=='[';
-    }
-    bool isMatching(char a, char b)
-    {
-        return (a=='(' && b==')' )|| (a=='{' && b =='}') || (a=='[' && b==']');
+        return s.empty();
     }
 };
