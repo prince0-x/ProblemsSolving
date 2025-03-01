@@ -3,16 +3,25 @@ public:
 
 
 ListNode* removeNodes(ListNode* head) {
-     if (head == nullptr) {
-            return nullptr;
+     ListNode* cur = head;
+        stack<ListNode*> stack;
+        
+        while (cur != nullptr) {
+            while (!stack.empty() && stack.top()->val < cur->val) {
+                stack.pop();
+            }
+            stack.push(cur);
+            cur = cur->next;
         }
-        ListNode* node = head;
-        ListNode* nxtGreater = removeNodes(node->next);
-
-        node->next = nxtGreater;
-        if (nxtGreater == nullptr || node->val >= nxtGreater->val) {
-            return node;
+        
+        ListNode* nxt = nullptr;
+        while (!stack.empty()) {
+            cur = stack.top();
+            stack.pop();
+            cur->next = nxt;
+            nxt = cur;
         }
-        return nxtGreater;
+        
+        return cur;
    }
 };
