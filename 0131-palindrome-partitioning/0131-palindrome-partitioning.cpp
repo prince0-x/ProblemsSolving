@@ -18,8 +18,9 @@ void sve(int index, string s, vector<string>&temp)
 
     for(int i = index;i<s.size();i++)
     {
-        if(ispalindrome(s.substr(index, i-index+1))){
-            temp.push_back(s.substr(index, i-index+1));
+        string ts = s.substr(index, i-index+1);
+        if(ispalindrome(ts)){
+            temp.push_back(ts);
             sve(i+1,s, temp);
             temp.pop_back();
         }
