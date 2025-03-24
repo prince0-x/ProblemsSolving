@@ -26,9 +26,9 @@ void sve(int index, string s, vector<string>&temp)
     }
 
 }
-    vector<vector<string>> partition(string s) {
-        vector<string>temp;
-        sve(0,s,temp);
-        return res;
+vector<vector<string>> partition(string s) {
+    vector<string>temp;
+    sve(0,s,temp);
+    return res;
     }
 };
