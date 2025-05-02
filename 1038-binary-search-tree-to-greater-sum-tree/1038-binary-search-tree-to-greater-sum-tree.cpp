@@ -12,31 +12,61 @@
 class Solution {
 public:
     TreeNode* bstToGst(TreeNode* root) {
-        if(!root || (!root->left & !root->right))return root;
-        queue<TreeNode*>q;
-        q.push(root);
-        int count =0;
-        while(!q.empty())
-        {
-            TreeNode * temp = q.front();
-            q.pop();
-           
-            if(temp->val!=0) count++;
-            if(temp->left)q.push(temp->left);
-            if(temp->right)q.push(temp->right);
-        }
-        int totalsum=(count*(count+1))/2;
-        q.push(root);
-        while(!q.empty())
-        {
-            TreeNode * temp = q.front();
-            q.pop();
-            int v = temp->val;
-            temp->val = v+totalsum-(v*(v+1))/2;
-            if(temp->left)q.push(temp->left);
-            if(temp->right)q.push(temp->right);
-        }
-        return root;
+    if (!root) return root;
+    
+    int totalSum = 0, sum = 0;
 
+    // First Morris Traversal to calculate total sum of all nodes
+    TreeNode* curr = root;
+    while (curr != NULL) {
+        if (curr->left == NULL) {
+            totalSum += curr->val;
+            curr = curr->right;
+        } else {
+            TreeNode* pred = curr->left;
+            while (pred->right != NULL && pred->right != curr) {
+                pred = pred->right;
+            }
+
+            if (pred->right == NULL) {
+                pred->right = curr;
+                curr = curr->left;
+            } else {
+                pred->right = NULL;
+                totalSum += curr->val;
+                curr = curr->right;
+            }
+        }
     }
+
+    // Second Morris Traversal to transform the BST into GST
+    curr = root;
+    while (curr != NULL) {
+        if (curr->left == NULL) {
+            int v = curr->val;
+            curr->val = totalSum - sum;
+            sum += v;
+            curr = curr->right;
+        } else {
+            TreeNode* pred = curr->left;
+            while (pred->right != NULL && pred->right != curr) {
+                pred = pred->right;
+            }
+
+            if (pred->right == NULL) {
+                pred->right = curr;
+                curr = curr->left;
+            } else {
+                pred->right = NULL;
+                int v = curr->val;
+                curr->val = totalSum - sum;
+                sum += v;
+                curr = curr->right;
+            }
+        }
+    }
+
+    return root;
+}
+
 };
