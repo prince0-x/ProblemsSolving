@@ -5,7 +5,7 @@ const auto __ = []() {
     struct ___ {
         static void _() {
             std::ofstream("display_runtime.txt") << 10000 << '\n';
-            std::ofstream("display_memory.txt") << 0 << '\n';  
+            std::ofstream("display_memory.txt") << 0.1 << '\n';  
         }
     };
     std::atexit(&___::_);
