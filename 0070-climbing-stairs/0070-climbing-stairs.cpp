@@ -19,7 +19,7 @@ public:
         {
             ans = p1 + p2;
             p2 = p1;
-           p1 = ans;
+            p1 = ans;
         }
         
         return p1;
