@@ -1,14 +1,15 @@
 class Solution {
 public:
-   int solve(vector<int>&arr, int i , int currsum, int target){
-    if(i == arr.size()){
-       return currsum==target?1:0;
+    int rec(int index, int target, vector<int>&nums,vector<vector<int>>&dp){
+        if(index==nums.size())return target==0;
+        if(dp[index][target+1000]!=-1)return dp[index][target+1000];
+        int ans=0;
+        ans+=rec(index+1, target+nums[index], nums,dp);
+        ans+=rec(index+1, target-nums[index], nums, dp);
+       return dp[index][target+1000]=ans;
     }
-    int add = solve(arr, i+1, currsum+arr[i], target);
-    int subtract = solve(arr, i+1, currsum-arr[i], target);
-    return add+subtract;
-   }
     int findTargetSumWays(vector<int>& nums, int target) {
-        return solve(nums, 0, 0, target);
+        vector<vector<int>>dp(nums.size(), vector<int>(3002, -1));
+        return rec(0, target, nums, dp);
     }
 };
