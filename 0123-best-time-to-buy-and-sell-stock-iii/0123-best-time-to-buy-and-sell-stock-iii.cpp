@@ -52,32 +52,47 @@ public:
     //     }
     //     return dp[0][1][2];
     // }
-     int solveT_opt(vector<int>&prices)
-    {
-        int n= prices.size();
-        vector<vector<int>>curr(2, vector<int>(3,0));
-        vector<vector<int>>next(2, vector<int>(3,0));
+    //  int solveT_opt(vector<int>&prices)
+    // {
+    //     int n= prices.size();
+    //     vector<vector<int>>curr(2, vector<int>(3,0));
+    //     vector<vector<int>>next(2, vector<int>(3,0));
        
-        for(int ind = n-1; ind >= 0; ind--)
-        {
-            for(int buy =0; buy<= 1; buy++)
-            {
-                for( int limit =1; limit <=2; limit++)
-                {
-                    if(buy)
-                    {
-                        curr[buy][limit]=max(-prices[ind]+next[0][limit], 0 + next[1][limit]);
-                    }
-                    else{
-                        curr[buy][limit]= max(+prices[ind]+next[1][limit-1], 0 + next[0][limit]);           }
-                }
-            }
-            next = curr;
-        }
-        return next[1][2];
-    }
-    int maxProfit(vector<int>& prices) {
+    //     for(int ind = n-1; ind >= 0; ind--)
+    //     {
+    //         for(int buy =0; buy<= 1; buy++)
+    //         {
+    //             for( int limit =1; limit <=2; limit++)
+    //             {
+    //                 if(buy)
+    //                 {
+    //                     curr[buy][limit]=max(-prices[ind]+next[0][limit], 0 + next[1][limit]);
+    //                 }
+    //                 else{
+    //                     curr[buy][limit]= max(+prices[ind]+next[1][limit-1], 0 + next[0][limit]);           }
+    //             }
+    //         }
+    //         next = curr;
+    //     }
+    //     return next[1][2];
+    // }
+    // int maxProfit(vector<int>& prices) {
         
-      return solveT_opt(prices);   
+    //   return solveT_opt(prices);   
+    // }
+      int maxProfit(vector<int>& prices) {
+    int sellTwo = 0;
+    int holdTwo = INT_MIN;
+    int sellOne = 0;
+    int holdOne = INT_MIN;
+
+    for (const int price : prices) {
+      sellTwo = max(sellTwo, holdTwo + price);
+      holdTwo = max(holdTwo, sellOne - price);
+      sellOne = max(sellOne, holdOne + price);
+      holdOne = max(holdOne, -price);
     }
+
+    return sellTwo;
+  }
 };
