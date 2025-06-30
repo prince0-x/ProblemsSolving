@@ -1,30 +1,20 @@
 class Solution {
 public:
-     int solveT_opt(vector<int>&prices,int k)
-    {
-        int n= prices.size();
-        vector<vector<int>>curr(2, vector<int>(k+1,0));
-        vector<vector<int>>next(2, vector<int>(k+1,0));
-       
-        for(int ind = n-1; ind >= 0; ind--)
-        {
-            for(int buy =0; buy<= 1; buy++)
-            {
-                for( int limit =1; limit <=k; limit++)
-                {
-                    if(buy)
-                    {
-                        curr[buy][limit]=max(-prices[ind]+next[0][limit], 0 + next[1][limit]);
-                    }
-                    else{
-                        curr[buy][limit]= max(+prices[ind]+next[1][limit-1], 0 + next[0][limit]);           }
-                }
-            }
-            next = curr;
+int solve(int i, bool buy, vector<int>&prices, int count,vector<vector<vector<int>>>&dp){
+        if(i==prices.size())return 0;
+        if(count==0)return 0;
+        if(dp[i][buy][count] != -1)return dp[i][buy][count];
+
+        int ans =0;
+        if(buy){
+            ans=max((-prices[i])+solve(i+1, 0, prices,count,dp), 0+solve(i+1,1,prices,count,dp));
+        }else{
+           ans=max(prices[i]+solve(i+1, 1, prices, count-1,dp),0+solve(i+1,0,prices,count,dp));
         }
-        return next[1][k];
+        return dp[i][buy][count] = ans;
     }
     int maxProfit(int k, vector<int>& prices) {
-        return solveT_opt(prices,k);
+        vector<vector<vector<int>>>dp(prices.size(), vector<vector<int>>(2,vector<int>(k+1,-1)));
+        return solve(0, 1,prices,k,dp);
     }
 };
