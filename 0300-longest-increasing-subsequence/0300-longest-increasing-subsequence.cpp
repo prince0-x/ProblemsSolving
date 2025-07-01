@@ -1,32 +1,16 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-      int n = nums.size();
-      vector<int>dp(n, 1), par(n), lis;
-      int index = 0, ans=1;
-      for(int i =1; i<n;i++){
-            for(int j =0; j<i;j++){
-                  if(nums[i]> nums[j]){
-                        if(dp[i]< 1+dp[j]){
-                            dp[i]=1+dp[j];
-                            par[i]=j;
-                        }
-                  }
+        vector<int>dp;
+        for(int i=0;i<nums.size();i++){
+            if(dp.empty() || nums[i]>dp.back()){
+                dp.push_back(nums[i]);
+            }else{
+                int ind = lower_bound(dp.begin(), dp.end(),nums[i])-dp.begin();
+                // cout<<i<<" "<<ind<<endl;
+                dp[ind]= nums[i];
             }
-            if(dp[i]>ans){
-                ans = dp[i];
-                index= i;
-            }
-      }
-      
-      
-      while(par[index]!=index){
-        lis.push_back(nums[index]);
-        index = par[index];
-      }
-      lis.push_back(nums[index]);
-      for(auto i:lis)cout<<i<<" ";
-      
-      return *max_element(dp.begin(), dp.end());
+        }
+        return dp.size();
     }
 };
