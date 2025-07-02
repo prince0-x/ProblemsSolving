@@ -25,6 +25,17 @@ public:
         return next[1];
     }
     int maxProfit(vector<int>& prices, int fee) {
-        return solve3(prices,fee);
+  
+        // return solve3(prices,fee);
+
+        int hold = -prices[0]; // Profit if we hold a stock
+        int notHold = 0;       // Profit if we don’t hold a stock
+
+        for (int i = 1; i < prices.size(); i++) {
+            hold = max(hold, notHold - prices[i]); // Update holding state
+            notHold = max(notHold, hold + prices[i] - fee); // Update not-holding state
+        }
+
+        return notHold;
     }
 };
