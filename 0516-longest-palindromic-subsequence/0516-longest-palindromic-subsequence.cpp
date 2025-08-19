@@ -1,19 +1,27 @@
 class Solution {
 public:
-    int longestPalindromeSubseq(string s) {
-       int n = s.size();
-        vector<int> dp(n, 0), dpPrev(n, 0);
-        for (int i = n - 1; i >= 0; --i) {
-            dp[i] = 1;
-            for (int j = i+1; j < n; ++j) {
-                if (s[i] == s[j]) {
-                    dp[j] = dpPrev[j-1] + 2;
-                } else {
-                    dp[j] = max(dpPrev[j], dp[j-1]);
+int n, m;
+    
+    int solve_tab(string &s, string &t){
+        vector<vector<int>>dp(n+1, vector<int>(m+1, 0));
+        for(int i=1;i<=n; i++){
+            for(int j =1; j<=m;j++){
+                if(s[i-1]==t[j-1]){
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }else{
+                    dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
                 }
             }
-            dpPrev=dp;
         }
-        return dpPrev[n-1];
+        return dp[n][m];
+    }
+    int longestCommonSubsequence(string text1, string text2) {
+        n= text1.size(), m = text2.size();
+        return solve_tab(text1, text2);
+    }
+    int longestPalindromeSubseq(string s) {
+        string t=s;
+        reverse(t.begin(), t.end());
+        return longestCommonSubsequence(s,t);
     }
 };
