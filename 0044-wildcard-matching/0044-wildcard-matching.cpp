@@ -1,46 +1,37 @@
 class Solution {
-    public:
-    bool m(string s, string p)
-    {
-       int  m1 = s.size();
-       int  n = p.size();
-       vector<vector<int>>dp(n+1,vector<int>(m1+1,0));
-       dp[0][0]=1;
-       for(int i=1; i<=n;i++)
-       {
-        int f =1;
-            for(int k=0; k<=i-1;k++)
-            {
-                if(p[k]!='*')
-                {
-                    f=0;
-                    break;
-                }
-            }
-        dp[i][0]=f;
+public:
+int n, m;
+string s, t;
+vector<vector<int>>dp;
+    bool solve(int i, int j){
+        if(i==0 && j==0){
+            return true;
         }
-        for(int i=1;i<=n;i++)
-        {
-            for(int j =1; j<=m1;j++)
-            {
-                if(p[i-1]==s[j-1] or p[i-1]=='?')
-                {
-                    dp[i][j]=dp[i-1][j-1];
-                }
-                else if(p[i-1]=='*')
-                {
-                    dp[i][j]=dp[i-1][j] | dp[i][j-1];
-                }
-                else
-                {
-                    dp[i][j]=0;
-                }
-            }
+        if(j==0){
+            return false;
         }
-        return dp[n][m1];
-       
+        if(i==0){
+            for(int ind= j-1;ind>=0;ind--){
+                if(t[ind] != '*')return false;
+            }
+            return true;
+        }
+        if(dp[i][j]!= -1){
+            return dp[i][j];
+        }
+        bool ans= false;
+        if(s[i-1]==t[j-1] || t[j-1]=='?'){
+            ans= solve(i-1, j-1);
+        }
+        else if(t[j-1]=='*'){
+            ans=solve(i-1, j)||solve(i, j-1);
+        }
+        return dp[i][j]= ans;
     }
-    bool isMatch(string s, string p) {
-      return m(s, p);
+    bool isMatch(string st, string pt) {
+        n= st.size(), m = pt.size();
+        dp.resize(n+1, vector<int>(m+1, -1));
+        s=st, t=pt;
+        return solve(n, m);
     }
 };
