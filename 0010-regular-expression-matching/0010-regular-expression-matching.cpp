@@ -1,24 +1,27 @@
 class Solution {
 public:
+    bool regular_expression(int i, int j, int m, int n, string &text, string &pattern, vector<vector<int>> &dp) {
+        if (dp[i][j] != -1) return dp[i][j];
 
-bool isMatch(string s, string p)
-{
-    int n = s.length(), m = p.length();
-    bool dp[n+1][m+1];
-    memset(dp, false, sizeof(dp));
-    dp[0][0] = true;
-    
-    for(int i=0; i<=n; i++){
-        for(int j=1; j<=m; j++){
-            if(p[j-1] == '*'){
-                dp[i][j] = dp[i][j-2] || (i > 0 && (s[i-1] == p[j-2] || p[j-2] == '.') && dp[i-1][j]);
-            }
-            else{
-                dp[i][j] = i > 0 && dp[i-1][j-1] && (s[i-1] == p[j-1] || p[j-1] == '.');
-            }
+        if (i == n) return dp[i][j] = (j == m);
+
+        bool curr_match = (j < m && (pattern[i] == text[j] || pattern[i] == '.'));
+
+        if (i + 1 < n && pattern[i + 1] == '*') {
+            return dp[i][j] = regular_expression(i + 2, j, m, n, text, pattern, dp) ||
+                              (curr_match && regular_expression(i, j + 1, m, n, text, pattern, dp));
         }
+
+        if (curr_match) {
+            return dp[i][j] = regular_expression(i + 1, j + 1, m, n, text, pattern, dp);
+        }
+
+        return dp[i][j] = false;
     }
-    
-    return dp[n][m];
-}
+
+    bool isMatch(string s, string p) {
+        int n = p.length(), m = s.length(); // n for pattern, m for text
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
+        return regular_expression(0, 0, m, n, s, p, dp);
+    }
 };
