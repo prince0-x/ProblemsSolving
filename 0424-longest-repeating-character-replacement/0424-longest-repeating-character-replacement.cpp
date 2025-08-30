@@ -9,10 +9,6 @@ public:
             maxf = max(maxf, hash[s[r]-'A']);
             while((r-l+1-maxf) > k){
                 hash[s[l]-'A']--;
-                maxf = 0;
-                for(int k =0;k<26;k++){
-                    maxf = max(maxf, hash[k]);
-                }
                 l++;
             }
             if((r-l+1-maxf) <= k){
