@@ -11,6 +11,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0357-count-numbers-with-unique-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0357-count-numbers-with-unique-digits/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
 ## Sorting
@@ -36,5 +37,10 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0357-count-numbers-with-unique-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0357-count-numbers-with-unique-digits/) | Medium |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0357-count-numbers-with-unique-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0357-count-numbers-with-unique-digits/) | Medium |
 <!---LeetCode Topics End-->
