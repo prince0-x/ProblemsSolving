@@ -52,6 +52,7 @@
 | [1012-numbers-with-repeated-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1012-numbers-with-repeated-digits/) | Hard |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
+| [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -63,4 +64,8 @@
 | [0375-guess-number-higher-or-lower-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 <!---LeetCode Topics End-->
