@@ -12,6 +12,7 @@
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
+| [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -53,6 +54,7 @@
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
+| [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -78,4 +80,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 <!---LeetCode Topics End-->
