@@ -11,6 +11,7 @@
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -29,11 +30,13 @@
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -49,6 +52,7 @@
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
