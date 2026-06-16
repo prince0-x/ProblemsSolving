@@ -1,53 +1,107 @@
-using t = tuple<double, int, int>;
 class Solution {
-    struct compare {
-        bool operator()(auto a, auto b) {
-            auto [p1, p2, p3] = a;
-            auto [v1, v2, v3] = b;
-            if (abs(p1 - v1) < 1e-9)
-                return p2 > v2; // min price
-            return p1 < v1;     // maxheap
-        }
+public:
+    struct Offer {
+        long long price;
+        long long freeCopies;
     };
 
-public:
     int maximumSaleItems(vector<vector<int>>& items, int budget) {
-        priority_queue<t, vector<t>, compare> pq;
+
         int n = items.size();
-        vector<int> freq(n + 1, 0), freebies(n + 1, 0);
-        int minPrice = 1e9;
-        for (int i = 0; i < n; i++) {
-            freq[items[i][0]]++;
-            minPrice = min(minPrice, items[i][1]);
+
+        vector<int> factorCount(n + 1, 0);
+        vector<int> divisibleCount(n + 1, 0);
+
+        long long cheapestPrice = LLONG_MAX;
+
+        for (auto &item : items) {
+            int factor = item[0];
+            int price  = item[1];
+
+            factorCount[factor]++;
+            cheapestPrice = min(cheapestPrice, (long long)price);
         }
+
+        //----------------------------------
+        // Sieve:
+        // divisibleCount[f]
+        // = number of items whose factor
+        // is divisible by f
+        //----------------------------------
+
         for (int f = 1; f <= n; f++) {
-            if (freq[f] > 0) {
-                for (int m = f; m <= n; m = m + f) {
-                    freebies[f] += freq[m];
-                }
+
+            for (int multiple = f;
+                 multiple <= n;
+                 multiple += f) {
+
+                divisibleCount[f] += factorCount[multiple];
             }
         }
-        for (int i = 0; i < n; i++) {
-            int units = freebies[items[i][0]] - 1;
-            if (units > 0) {
-                double perUnit = 2.0 / items[i][1];
-                pq.push({perUnit, items[i][1], units});
+
+        vector<Offer> offers;
+
+        for (auto &item : items) {
+
+            int factor = item[0];
+            int price  = item[1];
+
+            long long freeCopies =
+                divisibleCount[factor] - 1;
+
+            if (freeCopies > 0) {
+                offers.push_back({price, freeCopies});
             }
         }
-        int cnt = 0;
-        while (!pq.empty() && budget > 0) {
-            auto [u, p, c] = pq.top();
-            pq.pop();
-            if (u < 1.0 / minPrice)
+
+        //----------------------------------
+        // Best efficiency first:
+        // maximize 2/price
+        //----------------------------------
+
+        sort(offers.begin(), offers.end(),
+             [](const Offer& a,
+                const Offer& b) {
+
+                return a.price < b.price;
+             });
+
+        long long answer = 0;
+
+        for (auto &offer : offers) {
+
+            long long price = offer.price;
+            long long limit = offer.freeCopies;
+
+            if (budget < price)
+                continue;
+
+            //----------------------------------
+            // Compare:
+            // profitable purchase => 2/price
+            // cheapest normal buy => 1/minPrice
+            //----------------------------------
+
+            if (2 * cheapestPrice < price)
                 break;
-            int afford = budget / p;
-            int buy = min(afford, c);
-            if (buy > 0) {
-                cnt += buy * 2;
-                budget = budget - buy*p;
-            }
+
+            long long canAfford = budget / price;
+
+            long long buy =
+                min(canAfford, limit);
+
+            answer += 2 * buy;
+
+            budget -= buy * price;
         }
-        cnt += (budget / minPrice);
-        return cnt;
+
+        //----------------------------------
+        // Spend remaining money
+        // on cheapest item
+        //----------------------------------
+
+        answer += budget / cheapestPrice;
+
+        return (int)answer;
     }
 };
