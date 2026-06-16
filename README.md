@@ -80,6 +80,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
+| [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,4 +89,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 <!---LeetCode Topics End-->
