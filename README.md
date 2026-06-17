@@ -13,6 +13,7 @@
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -47,6 +48,7 @@
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -65,6 +67,7 @@
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -89,8 +92,21 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 <!---LeetCode Topics End-->
