@@ -90,6 +90,7 @@
 | [1871-jump-game-vii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 | [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3614-process-string-with-special-operations-ii/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -104,6 +105,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3614-process-string-with-special-operations-ii/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
