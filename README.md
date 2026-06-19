@@ -10,6 +10,7 @@
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1696-jump-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1696-jump-game-vi/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
@@ -50,6 +51,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
 | [1871-jump-game-vii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
