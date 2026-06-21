@@ -11,6 +11,7 @@
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1696-jump-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1696-jump-game-vi/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
+| [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
@@ -36,6 +37,7 @@
 | ------- | ------- |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 ## Heap (Priority Queue)
@@ -63,6 +65,7 @@
 | ------- | ------- |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [1927-sum-game](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1927-sum-game/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
@@ -134,4 +137,8 @@
 | [1696-jump-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1696-jump-game-vi/) | Medium |
 | [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/) | Hard |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 <!---LeetCode Topics End-->
