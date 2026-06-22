@@ -101,12 +101,14 @@
 | ------- | ------- |
 | [1871-jump-game-vii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [1927-sum-game](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1927-sum-game/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 | [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3614-process-string-with-special-operations-ii/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
@@ -141,4 +143,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 <!---LeetCode Topics End-->
