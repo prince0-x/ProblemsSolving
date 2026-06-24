@@ -34,6 +34,7 @@
 | [1927-sum-game](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1927-sum-game/) | Medium |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3700-number-of-zigzag-arrays-ii/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -87,6 +88,7 @@
 | [2801-count-stepping-numbers-in-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2801-count-stepping-numbers-in-range/) | Hard |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
 | [3699-number-of-zigzag-arrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3699-number-of-zigzag-arrays-i/) | Hard |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3700-number-of-zigzag-arrays-ii/) | Hard |
 | [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/) | Hard |
 ## Backtracking
