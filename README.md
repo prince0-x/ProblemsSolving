@@ -29,6 +29,7 @@
 | [1344-angle-between-hands-of-a-clock](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1927-sum-game](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1927-sum-game/) | Medium |
@@ -82,6 +83,7 @@
 | [1012-numbers-with-repeated-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1012-numbers-with-repeated-digits/) | Hard |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
+| [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
 | [1696-jump-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1696-jump-game-vi/) | Medium |
 | [1871-jump-game-vii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
@@ -152,4 +154,16 @@
 | ------- | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
 <!---LeetCode Topics End-->
