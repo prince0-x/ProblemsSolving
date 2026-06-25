@@ -9,6 +9,7 @@
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
 | [1696-jump-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1696-jump-game-vi/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1732-find-the-highest-altitude/) | Easy |
@@ -97,6 +98,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0357-count-numbers-with-unique-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0357-count-numbers-with-unique-digits/) | Medium |
+| [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,6 +159,7 @@
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
 | [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
 ## Recursion
 | Problem Name | Difficulty |
@@ -166,4 +169,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
 <!---LeetCode Topics End-->
