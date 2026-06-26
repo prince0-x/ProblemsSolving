@@ -16,6 +16,7 @@
 | [1833-maximum-ice-cream-bars](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 | [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
@@ -64,6 +65,7 @@
 | [1871-jump-game-vii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3699-number-of-zigzag-arrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3699-number-of-zigzag-arrays-i/) | Hard |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
 | [3956-maximum-sum-of-m-non-overlapping-subarrays-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3956-maximum-sum-of-m-non-overlapping-subarrays-i/) | Hard |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3957-maximum-sum-of-m-non-overlapping-subarrays-ii/) | Hard |
 ## Greedy
@@ -121,6 +123,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
 | [3948-lexicographically-maximum-mex-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3948-lexicographically-maximum-mex-array/) | Hard |
 ## Queue
 | Problem Name | Difficulty |
@@ -173,4 +176,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
 <!---LeetCode Topics End-->
