@@ -36,6 +36,7 @@
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1406-stone-game-iii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
+| [1492-the-kth-factor-of-n](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1492-the-kth-factor-of-n/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1611-minimum-one-bit-operations-to-make-integers-zero](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1611-minimum-one-bit-operations-to-make-integers-zero/) | Hard |
 | [1686-stone-game-vi](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1686-stone-game-vi/) | Medium |
@@ -207,6 +208,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
+| [1492-the-kth-factor-of-n](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1492-the-kth-factor-of-n/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
 | [2761-prime-pairs-with-target-sum](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2761-prime-pairs-with-target-sum/) | Medium |
