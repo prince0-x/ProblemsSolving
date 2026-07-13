@@ -19,6 +19,7 @@
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2761-prime-pairs-with-target-sum](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2761-prime-pairs-with-target-sum/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3739-count-subarrays-with-majority-element-ii/) | Hard |
 | [3947-maximum-number-of-items-from-sale-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3947-maximum-number-of-items-from-sale-ii/) | Medium |
@@ -43,6 +44,7 @@
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
+| [2761-prime-pairs-with-target-sum](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2761-prime-pairs-with-target-sum/) | Medium |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3700-number-of-zigzag-arrays-ii/) | Hard |
 ## Sorting
@@ -187,6 +189,7 @@
 | ------- | ------- |
 | [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
+| [2761-prime-pairs-with-target-sum](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2761-prime-pairs-with-target-sum/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -206,4 +209,5 @@
 | [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
+| [2761-prime-pairs-with-target-sum](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2761-prime-pairs-with-target-sum/) | Medium |
 <!---LeetCode Topics End-->
