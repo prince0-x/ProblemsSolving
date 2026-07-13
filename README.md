@@ -42,6 +42,7 @@
 | [1927-sum-game](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1927-sum-game/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2376-count-special-integers](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2376-count-special-integers/) | Hard |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
 | [2827-number-of-beautiful-integers-in-the-range](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/2827-number-of-beautiful-integers-in-the-range/) | Hard |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3700-number-of-zigzag-arrays-ii/) | Hard |
 ## Sorting
@@ -143,6 +144,7 @@
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
 | [3612-process-string-with-special-operations-i](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/3614-process-string-with-special-operations-ii/) | Hard |
 ## Binary Search
@@ -203,4 +205,5 @@
 | ------- | ------- |
 | [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2507-smallest-value-after-replacing-with-sum-of-prime-factors](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/2507-smallest-value-after-replacing-with-sum-of-prime-factors/) | Medium |
 <!---LeetCode Topics End-->
