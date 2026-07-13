@@ -6,6 +6,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1140-stone-game-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1406-stone-game-iii/) | Hard |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/1561-maximum-number-of-coins-you-can-get/) | Medium |
@@ -27,6 +28,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [0357-count-numbers-with-unique-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0357-count-numbers-with-unique-digits/) | Medium |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0375-guess-number-higher-or-lower-ii/) | Medium |
 | [1012-numbers-with-repeated-digits](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1012-numbers-with-repeated-digits/) | Hard |
@@ -181,6 +183,7 @@
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1601-maximum-number-of-achievable-transfer-requests](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Hard/1601-maximum-number-of-achievable-transfer-requests/) | Hard |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 ## Divide and Conquer
@@ -198,5 +201,6 @@
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Medium/0204-count-primes/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/princebeersingh/ProblemsSolving/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 <!---LeetCode Topics End-->
